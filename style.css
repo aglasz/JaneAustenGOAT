@@ -1,0 +1,42 @@
+.mainbody {
+    background-image: url("images/enhanced-1209-1648587466-5.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+header {
+    height: 160px;
+    display: block;
+    position: fixed;
+}
+
+
+@font-face {
+    font-family: AlexBrush-Regular;
+    src: url("AlexBrush-Regular.ttf");
+}
+h1 {
+    font-family: AlexBrush-Regular;
+    font-size: 72 px;
+
+}
+
+.bodydiv {
+    width: 800px;
+    height: 400px;
+    margin-left: 250px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+table {
+    align-items: center;
+    
+}
+
+td {
+    border: 1px;
+    align-items: stretch;
+}
