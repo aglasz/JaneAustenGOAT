@@ -20,6 +20,7 @@
     padding: 10px; 
     text-align: center;
     color: #000000;
+    border-bottom: #70667795;
 }
 
 .sidebar {
@@ -28,7 +29,34 @@
     text-align: center;
     background-color: #706677;
     padding-top: 20% 0;
+    margin-top: 2px;
    
+}
+
+.button {
+  display: inline-block;
+  background-color: #565264;
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s;
+  }
+  
+  .button:hover {
+    background-color: #70667700;
+    color: white;
+  }
+
+.books {
+    background-color: #706677c1;
+    padding: 20px;
+    box-shadow: #565264;
 }
 
 
@@ -45,18 +73,14 @@ h1 {
 .body {
     width: 60%;
     font-family: cursive;
+    text-align: center;
     font-size: 15px;
-    float: right;
+    float: left;
     padding: 10px 0 ;
     display: block;
-    
-  
+    padding-left: 10%;
 }
 
-/* td {
-    border: 1px;
-    align-items: stretch;
-} */
 
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
