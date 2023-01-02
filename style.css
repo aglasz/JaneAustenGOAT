@@ -86,7 +86,8 @@ h1 {
     /* For mobile phones: */
     .mainbody,
     .header,
-    .bodydiv {
+    .body,
+    .sidebar {
       width: 100%;
     }
   } 
