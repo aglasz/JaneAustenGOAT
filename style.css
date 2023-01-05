@@ -4,7 +4,6 @@
 
 
 .mainbody {
-    /* background-image: url("images/enhanced-1209-1648587466-5.jpg"); */
     background-repeat: repeat;
     background-color: #d6cfcb;
     background-attachment: fixed;
@@ -21,29 +20,41 @@
     text-align: center;
     color: #000000;
     border-bottom: #70667795;
+    border-radius: 10px;
 }
 
 .sidebar {
     float: left;
-    width: 25%;
+    width: 30%;
     text-align: center;
     background-color: #706677;
-    padding-top: 20% 0;
+    padding: 1em;
+    padding-top: .5em;
     margin-top: 2px;
+    border-image-width: auto;
+    
+    border: #565264;
+    border: 2px;
+    border-radius: 10px;
    
+}
+
+.facts{
+    font-size: 2em;
+    padding-bottom: .3em;
+    font-family: AlexBrush-Regular;
 }
 
 .button {
   display: inline-block;
   background-color: #565264;
-  padding: 20px;
-  width: 400px;
+  padding: 5%;
+  width: 60%;
   color: #ffffff;
   text-align: center;
-  border: 4px double #cccccc;
+  border: 4px double #d6cfcb;
   border-radius: 10px;
   font-size: 12px;
-  cursor: pointer;
   margin: 5px;
   transition: all 0.5s;
   }
@@ -57,6 +68,8 @@
     background-color: #706677c1;
     padding: 20px;
     box-shadow: #565264;
+    border-radius: 10px;
+    
 }
 
 
@@ -72,13 +85,21 @@ h1 {
 
 .body {
     width: 60%;
-    font-family: cursive;
+    font-family: serif;
     text-align: center;
     font-size: 15px;
     float: left;
     padding: 10px 0 ;
     display: block;
     padding-left: 10%;
+}
+
+.footer { 
+    background-color: #565264;
+    padding: 10px; 
+    text-align: center;
+    color: #000000;
+    margin-top: 7px;   
 }
 
 
